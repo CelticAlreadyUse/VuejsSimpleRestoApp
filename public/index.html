@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/vue@3"></script><!-- Vue.js is required -->
+<script src="https://unpkg.com/feather-icons@4"></script><!-- Feather is required -->
+<script src="https://unpkg.com/vue-feather@2"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bowlby+One+SC&family=Poppins:wght@300&family=Righteous&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="toastr.css" rel="stylesheet"/>
+    <link rel="" href="/src/assets/css/main.css">
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>    
+   </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="toastr.js"></script>
+    <script>
+      feather.replace()
+    </script>
+ </body>
+</html>
