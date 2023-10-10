@@ -4,7 +4,11 @@
 ```
 npm install
 ```
-
+### Start the database server by going to the backend folder and run the following command via terminal (I use git bash)
+```
+json-server --watch db.json
+```
+### pastikan db.json berjalan pada localhost 3000
 ### Compiles and hot-reloads for development
 ```
 npm run serve
